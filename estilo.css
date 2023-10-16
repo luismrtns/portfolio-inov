@@ -57,13 +57,14 @@ header, .hero-section, .cursos-section, footer{
 header h1{
   font-size: 1.8rem;
   display: block;
+  text-align: center;
   margin: 1rem auto;
   user-select: none;
 }
 
 header nav{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 1rem auto 0;
 }
 

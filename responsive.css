@@ -84,4 +84,70 @@
     footer nav{
       flex: 1;
     }
-  }
+
+    .content{
+      display: block;
+      margin: auto;
+      width: 45%;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.348);
+}
+
+    .content .imagens img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar{
+        width: 20px;
+        height: 20px;
+        border: 3px solid var(--cor-preta);
+        margin: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        transition: all .2s;
+    }
+
+    .bar:hover{
+        background-color: var(--cor-1);
+    }
+
+    input{
+        display: none;
+    }
+
+    .slides{
+        display: flex;
+        width: 500%;
+        height: 100%;
+    }
+
+    .imagens{
+        width: 20%; /* cada imagem vai ter 20%, totalizando 100% */
+        transition: .6s;
+    }
+
+    #slide1:checked ~ .img1{
+        margin-left: 0;
+    }
+    #slide2:checked ~ .img1{
+        margin-left: -20%;
+    }
+    #slide3:checked ~ .img1{
+        margin-left: -40%;
+    }
+    #slide4:checked ~ .img1{
+        margin-left: -60%;
+    }
+    #slide5:checked ~ .img1{
+        margin-left: -80%;
+    }
+}

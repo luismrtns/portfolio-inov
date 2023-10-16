@@ -162,6 +162,10 @@ header nav a{
   background-color: var(--cor-3);
 }
 
+.card:nth-child(odd){
+  align-self: end;
+}
+
 .card img{
   height: 150px;
   margin-top: 1rem;

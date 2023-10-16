@@ -227,6 +227,7 @@ footer nav a{
   padding: .8rem;
   font-weight: bold;
   width: fit-content;
+  text-decoration: underline;
 }
 
 footer nav i{
@@ -237,7 +238,6 @@ footer nav i{
 
 footer nav a:hover{
   color: var(--cor-preta);
-  text-decoration: underline;
 }
 
 footer address{
@@ -247,6 +247,10 @@ footer address{
 
 footer .map{
   color: var(--cor-preta);
+}
+
+.map:hover{
+  color: var(--cor-2);
 }
 
 /* utilidades */

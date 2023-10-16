@@ -117,7 +117,7 @@
     }
 
     .bar:hover{
-        background-color: var(--cor-1);
+        background-color: var(--cor-2);
     }
 
     input{

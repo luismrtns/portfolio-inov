@@ -1,0 +1,77 @@
+:root{
+  --cor-1: #F23545;
+  --cor-2: #158FBF;
+  --cor-3: #03A64A;
+  --cor-4: #F28705;
+  --cor-preta: #0D0D0D;
+  --cor-branca: #fff;
+}
+  
+  
+  @media screen and (min-width:640px){
+    header nav{
+      display: block;
+      text-align: center;
+    }
+  
+    .cards{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .card:nth-child(even){
+      margin-top: 1rem;
+    }
+  }
+  
+  @media screen and (min-width:768px) {
+    header div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 70px;
+    }
+  
+    header h1, header nav, header .btn{
+      margin: 0;
+    }
+
+    header nav a{
+      border-radius: 5px;
+
+      transition: all .2s;
+    }
+  
+    header nav a:hover{
+      background-color: var(--cor-1);
+      color: var(--cor-branca);
+      font-size: 1.35rem;
+    }
+  }
+  
+  @media screen and (min-width:1152px) {
+    .container{
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 1152px;
+    }
+  
+    .row-reverse{
+      flex-direction: row-reverse;
+    }
+  
+    footer .sobre{
+      flex: 2;
+    }
+  
+    .sobre p{
+      font-size: 1.25rem;
+      max-width: 25rem;
+    }
+  
+    footer nav{
+      flex: 1;
+    }
+  }

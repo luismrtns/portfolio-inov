@@ -15,7 +15,7 @@
   --cor-1: #F23545;
   --cor-2: #158FBF;
   --cor-3: #03A64A;
-  --cor-4: #F28705;
+  --cor-4: #f4a646;
   --cor-preta: #0D0D0D;
   --cor-branca: #fff;
 }
@@ -138,7 +138,6 @@ header nav a{
 }
 
 .card{
-  background-color: var(--cor-1);
   color: var(--cor-branca);
   border: 2px solid var(--cor-preta);
   box-shadow: 4px 4px 0 var(--cor-preta);
@@ -147,18 +146,25 @@ header nav a{
   padding: 2rem;
 }
 
-.card img{
-  height: 150px;
-  margin-top: 1rem;
+.vermelho{
+  background-color: var(--cor-1);
 }
 
-.card-verde{
+.azul{
+  background-color: var(--cor-2);
+}
+
+.amarelo{
+  background-color: var(--cor-4);
+}
+
+.verde{
   background-color: var(--cor-3);
 }
 
-.card:nth-child(even){
-  background-color: var(--cor-2);
-  align-self: end;
+.card img{
+  height: 150px;
+  margin-top: 1rem;
 }
 
 .card strong{

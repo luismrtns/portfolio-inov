@@ -38,7 +38,7 @@
     }
 
     header nav a{
-      border: 3px solid;
+      position: relative;
       color: var(--cor-1);
       border-radius: 5px;
 
@@ -46,9 +46,25 @@
     }
   
     header nav a:hover{
-      background-color: var(--cor-2);
-      color: var(--cor-branca);
+      color: var(--cor-preta);
       font-size: 1.35rem;
+    }
+
+    header nav a::after{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: ' ';
+      width: 0%;
+      height: 2px;
+      border-radius: 10px;
+      background-color: var(--cor-1);
+
+      transition: all .3s ease-in-out;
+    }
+
+    header nav a:hover::after{
+      width: 100%;
     }
   }
   

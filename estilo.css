@@ -25,12 +25,11 @@
   }
   
   ::-webkit-scrollbar-track { /*define o estilo da área da scrollbar onde o conteúdo não está visível.*/
-    background-image: linear-gradient(to bottom, #eaf9ff 0%, #fafafa 100%);
+    background-color: #ecf0f1;
   }
   
   ::-webkit-scrollbar-thumb { /*define o estilo do polegar (a parte que você arrasta) da scrollbar.*/
     background: var(--cor-preta);
-    border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
@@ -39,12 +38,11 @@
 
 html{
   scroll-behavior: smooth;
-  scroll-padding-top: 10em;
+  scroll-padding-top: 12em;
 }
 
 body{
   background-color: #ecf0f1;
-  padding: 0 1rem;
 }
 
 header, .hero-section, .cursos-section, footer{
@@ -54,7 +52,12 @@ header, .hero-section, .cursos-section, footer{
   padding: 1.25rem;
 }
 
+header{
+  background-color: #011c27;
+}
+
 header h1{
+  color: var(--cor-branca);
   font-size: 1.8rem;
   display: block;
   text-align: center;
@@ -233,7 +236,7 @@ footer{
 footer nav a{
   display: block;
   color: var(--cor-1);
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: .8rem;
   font-weight: bold;
   width: fit-content;

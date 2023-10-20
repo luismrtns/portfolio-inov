@@ -26,6 +26,13 @@
   }
   
   @media screen and (min-width:768px) {
+
+    header{
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+    }
+
     header div{
       display: flex;
       justify-content: space-between;
@@ -46,7 +53,7 @@
     }
   
     header nav a:hover{
-      color: var(--cor-preta);
+      color: var(--cor-branca);
       font-size: 1.35rem;
     }
 

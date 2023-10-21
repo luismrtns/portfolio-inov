@@ -16,7 +16,7 @@
   --cor-2: #158FBF;
   --cor-3: #03A64A;
   --cor-4: #f4a646;
-  --cor-preta: #0D0D0D;
+  --cor-escura: #011c27;
   --cor-branca: #fff;
 }
 
@@ -29,7 +29,7 @@
   }
   
   ::-webkit-scrollbar-thumb { /*define o estilo do polegar (a parte que você arrasta) da scrollbar.*/
-    background: var(--cor-preta);
+    background: var(--cor-escura);
   }
   
   ::-webkit-scrollbar-thumb:hover {
@@ -46,14 +46,14 @@ body{
 }
 
 header, .hero-section, .cursos-section, footer{
-  border-color: var(--cor-preta);
+  border-color: var(--cor-escura);
   border-style: solid;
   border-width: 0 1px 1px 1px;
   padding: 1.25rem;
 }
 
 header{
-  background-color: #011c27;
+  background-color: var(--cor-escura);
 }
 
 header h1{
@@ -82,8 +82,8 @@ header nav a{
 .btn{
   background-color: var(--cor-1);
   color: var(--cor-branca);
-  border: 2px solid var(--cor-preta);
-  box-shadow: 4px 4px 0 var(--cor-preta);
+  border: 2px solid var(--cor-escura);
+  box-shadow: 4px 4px 0 var(--cor-escura);
   display: block;
   font-size: 1.25rem;
   font-weight: bold;
@@ -142,8 +142,8 @@ header nav a{
 
 .card{
   color: var(--cor-branca);
-  border: 2px solid var(--cor-preta);
-  box-shadow: 4px 4px 0 var(--cor-preta);
+  border: 2px solid var(--cor-escura);
+  box-shadow: 4px 4px 0 var(--cor-escura);
   max-width: 17rem;
   /* height: 18rem; */
   padding: 2rem;
@@ -231,11 +231,11 @@ footer nav a{
 footer nav i{
   font-size: 1.5rem;
   display: inline-block;
-  color: var(--cor-preta);
+  color: var(--cor-escura);
 }
 
 footer nav a:hover{
-  color: var(--cor-preta);
+  color: var(--cor-escura);
 }
 
 footer address{
@@ -244,7 +244,7 @@ footer address{
 }
 
 footer .map{
-  color: var(--cor-preta);
+  color: var(--cor-escura);
 }
 
 .map:hover{

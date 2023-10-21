@@ -20,6 +20,11 @@
   --cor-branca: #fff;
 }
 
+::selection{
+  background-color: var(--cor-escura);
+  color: var(--cor-branca);
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }

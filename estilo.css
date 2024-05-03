@@ -59,6 +59,7 @@ header, .hero-section, .cursos-section, footer{
 
 header{
   background-color: var(--cor-escura);
+  /* padding: 0; */
 }
 
 /* header h1{
@@ -71,7 +72,7 @@ header{
 } */
 
 header img{
-  width: 70%;
+  width: 40%;
   padding: 0;
   display: block;
   text-align: center;

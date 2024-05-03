@@ -77,8 +77,9 @@
   
   @media screen and (min-width:1152px) {
     header img{
-      width: 20%;
+      width: 30%;
       padding: 0;
+      margin: 0;
     }
 
     .container{

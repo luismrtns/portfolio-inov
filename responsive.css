@@ -76,6 +76,11 @@
   }
   
   @media screen and (min-width:1152px) {
+    header img{
+      width: 20%;
+      padding: 0;
+    }
+
     .container{
       display: flex;
       align-items: center;
